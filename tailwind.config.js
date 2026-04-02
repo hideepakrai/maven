@@ -17,6 +17,12 @@ export default {
   				orange: '#FF7020',
   				text: '#4F4640'
   			},
+            earth: {
+                concrete: '#F4F4F0',
+                obsidian: '#121212',
+                terracotta: '#C25E4B',
+                bronze: '#8F5D3D',
+            },
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
