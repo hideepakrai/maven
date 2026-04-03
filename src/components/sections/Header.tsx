@@ -24,7 +24,7 @@ const Header = () => {
           <Link href="/" className="shrink-0">
             <img
               src="/assets/Image/mp-dark-logo.svg"
-              alt="Maven Projects"
+              alt="Minnaro Architects"
               className="h-8 w-auto md:h-9"
             />
           </Link>
@@ -89,7 +89,7 @@ const Header = () => {
       >
         <div className="flex items-start justify-between gap-4">
           <div>
-            <p className="font-display text-2xl text-[#111111]">Maven Projects</p>
+            <p className="font-display text-2xl text-[#111111]">Minnaro Architects</p>
             <p className="font-editorial mt-2 text-sm text-[#666666]">
               Architecture, interiors, and modern residences.
             </p>

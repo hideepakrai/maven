@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import ContactPage from "@/components/pages/ContactPage";
 
 export const metadata: Metadata = {
-  title: "Contact | Maven Projects",
+  title: "Contact | Minnaro Architects",
   description:
-    "Contact Maven Projects for architecture, renovation, interior design, and project consultation inquiries.",
+    "Contact Minnaro Architects for architecture, renovation, interior design, and project consultation inquiries.",
 };
 
 export default function Page() {

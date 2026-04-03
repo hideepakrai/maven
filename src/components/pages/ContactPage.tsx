@@ -35,7 +35,7 @@ export default function ContactPage() {
                 Contact
               </p>
               <h1 className="font-display mt-4 max-w-4xl text-[clamp(2.5rem,5vw,4.6rem)] font-medium leading-[0.98] tracking-[-0.045em] text-[#111111]">
-                Get in touch with Maven Projects.
+                Get in touch with Minnaro Architects.
               </h1>
               <p className="font-editorial mt-6 max-w-2xl text-sm leading-7 text-[#555555] md:text-base">
                 Share your project brief, timeline, location, and the kind of space you want to create. We will come

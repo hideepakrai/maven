@@ -7,9 +7,9 @@ import HomeServices from "@/components/sections/home/HomeServices";
 import { homeFooterCta, processIntro, processSteps, services } from "@/lib/homepage-data";
 
 export const metadata: Metadata = {
-  title: "Services | Maven Projects",
+  title: "Services | Minnaro Architects",
   description:
-    "Explore Maven Projects services including architecture, renovation, interior design, and project execution support.",
+    "Explore Minnaro Architects services including architecture, renovation, interior design, and project execution support.",
 };
 
 export default function Page() {
