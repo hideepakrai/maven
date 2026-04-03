@@ -7,9 +7,9 @@ import HomeProcess from "@/components/sections/home/HomeProcess";
 import { awards, homeFooterCta, processIntro, processSteps, projectMetrics } from "@/lib/homepage-data";
 
 export const metadata: Metadata = {
-  title: "Process | Maven Projects",
+  title: "Process | Minnaro Architects",
   description:
-    "See how Maven Projects guides clients from the first conversation to design development, site coordination, and completion.",
+    "See how Minnaro Architects guides clients from the first conversation to design development, site coordination, and completion.",
 };
 
 export default function Page() {

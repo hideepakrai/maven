@@ -27,11 +27,11 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Maven Projects",
-    template: "%s | Maven Projects",
+    default: "Minnaro Architects",
+    template: "%s | Minnaro Architects",
   },
   description:
-    "Maven Projects is a contemporary architecture and interiors studio creating calm, refined residential and commercial spaces.",
+    "Minnaro Architects is a contemporary architecture and interiors studio creating calm, refined residential and commercial spaces.",
 };
 
 export default function RootLayout({

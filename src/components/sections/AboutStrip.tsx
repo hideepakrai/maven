@@ -39,8 +39,8 @@ export default function AboutSection() {
           {/* 🔹 Left Column (Text) */}
           <motion.div className="lg:col-span-2" variants={textVariants}>
             <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-8">
-              ABOUT <span className="text-[#DEBB70]"> MAVEN</span> 
-              {/* 'MQA' ke liye text-amber-400 use kiya hai, aap change kar sakte hain */}
+              ABOUT <span className="text-[#DEBB70]"> MINNARO</span> 
+              {/* 'Minnaro' version placeholder update */}
             </h2>
             <div className="space-y-6 text-lg text-gray-300">
               <p>
@@ -73,7 +73,7 @@ export default function AboutSection() {
               <div >
               <img
                 src="/assets/Image/about-img.jpg" 
-                alt="MQA Team"
+                alt="Minnaro Team"
               
                 className="w-full h-1/2 object-cover grayscale" // Grayscale filter
               />

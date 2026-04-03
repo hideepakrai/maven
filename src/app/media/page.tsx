@@ -6,9 +6,9 @@ import HomeJournal from "@/components/sections/home/HomeJournal";
 import { homeFooterCta, journalEntries } from "@/lib/homepage-data";
 
 export const metadata: Metadata = {
-  title: "Media | Maven Projects",
+  title: "Media | Minnaro Architects",
   description:
-    "Read studio updates, press features, project stories, and design notes from Maven Projects.",
+    "Read studio updates, press features, project stories, and design notes from Minnaro Architects.",
 };
 
 export default function Page() {

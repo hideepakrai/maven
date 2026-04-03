@@ -118,13 +118,13 @@ export const siteNavigation: NavItem[] = [
 
 export const heroContent: HeroContent = {
   eyebrow: "Featured Project / 2024",
-  title: "Kaave Academy",
+  title: "ARCHITECTURAL EXCELLENCE",
   image: "/assets/Image/about-us-img.jpeg",
   primaryCta: { label: "See selected work", href: "#projects" },
   secondaryCta: { label: "Get in touch", href: "#contact" },
   supportingCaption:
     "Beyond architecture, creating places for learning, culture, and everyday calm.",
-  metaLabel: "Maven Projects / Architecture and Interior Design",
+  metaLabel: "Minnaro Architects / Architecture and Interior Design",
 };
 
 export const studioIntro: StudioIntro = {
@@ -139,9 +139,9 @@ export const studioIntro: StudioIntro = {
 export const services: ServiceItem[] = [
   {
     index: "01",
-    title: "Houses",
+    title: "Architecture",
     description:
-      "To create beautiful, healthy buildings to empower families, uplift communities, and improve our living world.",
+      "We design beautiful, healthy buildings that empower families, uplift communities, and harmonize with our living world.",
     icon: "house",
     linkLabel: "Architecture",
   },
@@ -149,15 +149,15 @@ export const services: ServiceItem[] = [
     index: "02",
     title: "Renovation",
     description:
-      "Minnaro strives toward a socially just and equitable world where buildings positively contribute to the environment.",
+      "Breathing new life into existing structures through thoughtful redesign, sustainable upgrades, and structural refinement.",
     icon: "ruler",
     linkLabel: "Renovation",
   },
   {
     index: "03",
-    title: "Interior Desing",
+    title: "Interior Design",
     description:
-      "We honor the profound and nuanced ways humans and the environment interact with, use, and are shaped by our work.",
+      "Honoring the profound and nuanced ways humans interact with, utilize, and are shaped by our intimately crafted spaces.",
     icon: "sofa",
     linkLabel: "Interior design",
   },
@@ -251,7 +251,7 @@ export const founderFeature: FounderFeature = {
   image: "/assets/Image/team-img.jpg",
   secondaryImage: "/assets/Image/project-image2.png",
   role: "Architecture / Interiors / Delivery",
-  name: "Maven Projects",
+  name: "Minnaro Architects",
   cta: { label: "Meet the studio", href: "/about" },
 };
 
@@ -284,9 +284,9 @@ export const journalEntries: JournalItem[] = [
 
 export const testimonial: TestimonialContent = {
   quote:
-    "Maven Projects gave our home a rare sense of stillness. Every room feels generous, resolved, and beautifully easy to live in.",
+    "Minnaro Architects gave our home a rare sense of stillness. Every room feels generous, resolved, and beautifully easy to live in.",
   name: "Residential Client",
-  role: "Jaipur",
+  role: "New York",
   image: "/assets/Image/testimonials-img.png",
 };
 
@@ -301,15 +301,15 @@ export const homeFooterCta: FeatureBanner = {
   eyebrow: "Let's work together",
   title: "Let's create a home that feels composed, generous, and fully yours.",
   image: "/assets/Image/about-image.jpg",
-  cta: { label: "Book a consultation", href: "mailto:hello@mavenprojects.in" },
+  cta: { label: "Book a consultation", href: "mailto:hello@minnaro.com" },
 };
 
 export const siteContact = {
-  phoneLabel: "+91 22 1122 8056",
-  phoneHref: "tel:+912211228056",
-  emailLabel: "hello@mavenprojects.in",
-  emailHref: "mailto:hello@mavenprojects.in",
-  address: "105 Mohan Nagar, Jaipur, Rajasthan",
+  phoneLabel: "+1 212 555 0199",
+  phoneHref: "tel:+12125550199",
+  emailLabel: "hello@minnaro.com",
+  emailHref: "mailto:hello@minnaro.com",
+  address: "105 Central Park West, New York, NY",
 };
 
 export const footerQuickLinks: ContactLink[] = [

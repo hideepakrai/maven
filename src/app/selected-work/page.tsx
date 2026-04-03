@@ -7,9 +7,9 @@ import HomeProjects from "@/components/sections/home/HomeProjects";
 import { featureBanner, featuredProjects, homeFooterCta } from "@/lib/homepage-data";
 
 export const metadata: Metadata = {
-  title: "Selected Work | Maven Projects",
+  title: "Selected Work | Minnaro Architects",
   description:
-    "Browse selected architecture and interior design projects by Maven Projects across residential and cultural spaces.",
+    "Browse selected architecture and interior design projects by Minnaro Architects across residential and cultural spaces.",
 };
 
 export default function Page() {
