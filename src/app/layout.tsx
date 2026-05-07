@@ -36,11 +36,11 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Maven Projects | Architecture & Interior Design in Jaipur",
-    template: "%s | Maven Projects",
+    default: "Maven Studio Admin | Architectural Operations Hub",
+    template: "%s | Maven Studio Admin",
   },
   description:
-    "Maven Projects is a premier architecture and interior design studio in Jaipur, creating modern, functional, and sustainable homes across Rajasthan.",
+    "Maven Studio Admin is the premium operational hub for Maven Projects, managing architecture, interior design, and studio production workflows with elegance.",
 
   // ✅ FAVICON ADDED HERE
   icons: {
