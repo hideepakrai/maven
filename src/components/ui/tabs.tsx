@@ -6,14 +6,29 @@ const Ctx = React.createContext<TabsContext | null>(null);
 
 export function Tabs({
   defaultValue,
+  value: controlledValue,
+  onValueChange,
   className,
   children,
 }: {
-  defaultValue: string;
+  defaultValue?: string;
+  value?: string;
+  onValueChange?: (v: string) => void;
   className?: string;
   children: React.ReactNode;
 }) {
-  const [value, setValue] = React.useState(defaultValue);
+  const [uncontrolledValue, setUncontrolledValue] = React.useState(defaultValue || "");
+  
+  const isControlled = controlledValue !== undefined;
+  const value = isControlled ? controlledValue : uncontrolledValue;
+  
+  const setValue = React.useCallback((v: string) => {
+    if (!isControlled) {
+      setUncontrolledValue(v);
+    }
+    onValueChange?.(v);
+  }, [isControlled, onValueChange]);
+
   return (
     <div className={className}>
       <Ctx.Provider value={{ value, setValue }}>{children}</Ctx.Provider>
@@ -44,8 +59,8 @@ export function TabsTrigger({
 
   return (
     <button
+      type="button"
       onClick={() => ctx.setValue(value)}
-      style={{borderRadius:"6px"}}
       className={cn(
         "px-5 py-2 text-[16px] font-medium rounded-lg transition-all duration-200 shadow-none",
         active
